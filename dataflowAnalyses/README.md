@@ -7,6 +7,7 @@ Data Flow Analyses Assignment
   The algorith always stops becuase there is a finite amount of sets. Each iteration will add or remove elements from the set, and since there can only be a limited number of combinations. When it reaches a fixed point, there will be no more changes
 
 3. Reaching Definitions
+bril2json < test/dataFlow/reaching.bril | python3 df.py reaching
 
-4. Available Expressions
-
+5. Available Expressions
+bril2json < test/dataFlow/avail.bril | python3 df.py avail
